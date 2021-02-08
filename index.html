@@ -151,10 +151,43 @@
 								<div class="main-wrapper">
 									<form action="#">
 										<div class="row">
-											<div class="col-xl-4 col-lg-3 md-mb-20">
+											<div class="col-xl-3 col-lg-3 md-mb-20">
 												<div class="dropdown-holder">
 													<select class="theme-select-menu">
-														<option value="">Destination</option>
+														<option value="">From</option>
+														<optgroup label="ASIA">
+															<option value="India">India</option>
+															<option value="indonesia">indonesia</option>
+															<option value="the philippines">the philippines</option>
+															<option value="thailand">thailand</option>
+														</optgroup>
+														<optgroup label="AFRICA">
+															<option value="malawi">malawi</option>
+															<option value="botswana">botswana</option>
+															<option value="kenya">kenya</option>
+															<option value="tanzania">tanzania</option>
+															<option value="zambia">zambia</option>
+															<option value="zimbabwe">zimbabwe</option>
+														</optgroup>
+														<optgroup label="SORT BY EXPERIENCE">
+															<option value="beach vibes">beach vibes</option>
+															<option value="safari & wildlife">safari & wildlife</option>
+															<option value="backpacking">backpacking</option>
+															<option value="live like a local">live like a local</option>
+															<option value="mountains">mountains</option>
+															<option value="food & culture">food & culture</option>
+															<option value="adrenaline">adrenaline</option>
+															<option value="fitness">fitness</option>
+															<option value="honeymoon">honeymoon</option>
+														</optgroup>
+													</select>
+												</div>
+											</div>
+
+											<div class="col-xl-3 col-lg-3 md-mb-20">
+												<div class="dropdown-holder">
+													<select class="theme-select-menu">
+														<option value="">To</option>
 														<optgroup label="ASIA">
 															<option value="India">India</option>
 															<option value="indonesia">indonesia</option>
@@ -185,7 +218,7 @@
 											</div>
 
 											<div class="col-lg-3 col-sm-6 md-mb-20">
-												<input type="text" name="daterange" value="Enter Date" class="input-box">
+												<input type="date" name="date" value="Enter Date" class="input-box">
 											</div>
 
 											<div class="col-lg-3 col-sm-6 md-mb-20">
@@ -203,7 +236,8 @@
 													</div>
 												</div> <!-- /.people-count -->
 											</div>
-
+										</div>
+										<div class="row">
 											<div class="col-xl-2 col-lg-3">
 												<button class="theme-main-button m-auto">Search</button>
 											</div>
