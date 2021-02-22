@@ -491,7 +491,7 @@ body .theme-main-button-two:hover {box-shadow: 0px 2px 20px 0px rgba(121,181,48,
   cursor: pointer;
 }
 /*------------------ Local Experience -----------------*/
-.block-style-one .icon {height: 40px; margin: 0 auto 30px;}
+.block-style-one .icon {/*height: 40px;*/ margin: 0 auto 30px;}
 .block-style-one .icon_two {height: 80px; margin: 0 auto 12px;}
 .block-style-one p {padding: 15px 35px 0;}
 .block-style-one.style-two p {padding: 15px 5px 0;}
@@ -567,6 +567,9 @@ body .theme-main-button-two:hover {box-shadow: 0px 2px 20px 0px rgba(121,181,48,
   border-radius: 50%;
   box-shadow: 0px 10px 25px 0px rgba(123,147,171,0.4);
 }
+.trip-concepts .col-lg-4.col-sm-6 {
+    justify-content: center;
+}
 .trip-finder-slider .owl-nav [class*=owl-]:hover {background: var(--p-color); color: #fff;}
 .our-blog .media-meta-box a h3 {font-size: 20px;}
 /*--------------- Trip Concept ---------------*/
@@ -574,7 +577,7 @@ body .theme-main-button-two:hover {box-shadow: 0px 2px 20px 0px rgba(121,181,48,
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  /*background-position: center;*/
 }
 .fancy-bg .overlay {
   position: relative;
@@ -584,7 +587,7 @@ body .theme-main-button-two:hover {box-shadow: 0px 2px 20px 0px rgba(121,181,48,
   display: flex;
   flex-direction: column;
 }
-.block-style-two .icon {width: 50px; margin: 0 auto 30px;}
+.block-style-two .icon {/*width: 50px;*/ margin: 0 auto 30px;}
 .block-style-two .num {
   font-size: 45px;
   padding-bottom: 20px;
@@ -755,7 +758,7 @@ body .theme-main-button-two:hover {box-shadow: 0px 2px 20px 0px rgba(121,181,48,
   content: '';
   width: 100%;
   height: 30px;
-  background: url(../images/assets/texture_strip_repeat_white.png) repeat-x center bottom;
+  /*background: url(../images/assets/texture_strip_repeat_white.png) repeat-x center bottom;*/
   position: absolute;
   left: 0;
   top: 0;
